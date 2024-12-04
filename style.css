@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: azure;
+    text-align: center;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid black;
+  }
+  
+  input, button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    display: none;
+  }
+  
+  .success {
+    color: green;
+    border: 1px solid green;
+  }
+  
+  .error {
+    color: red;
+    border: 1px solid red;
+  }
+  
+  .employee-list {
+    margin: 20px auto;
+    max-width: 600px;
+    border-top: 1px solid #ccc;
+    background-color: aqua;
+  }
+  
+  .employee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
